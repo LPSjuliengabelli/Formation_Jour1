@@ -1,0 +1,91 @@
+Run 1:  mar. févr. 24 21:37:35 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_zoom_impedance_port.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Begin electromagnetic simulation using independent parameters:
+      Lj = 19.15
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3.7, Stop = 3.95 GHZ
+
+    Frequency:  3.7 GHZ
+      Subsectioning at 3.95 GHz with Eeff of 6.25.
+      Subsectioning time:  5 seconds.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 50 microns length, 599 subsections, 12 MB.
+        Bottom SOC Magnetic Wall: 100 microns length, 570 subsections, 12 MB.
+      De-embedding information for component L0:
+        Main Std: X=1000 microns Y=600 microns box size, 233 subsections, 14 MB.
+      Em license feature:  emhighperformance.
+
+      Circuit requires 8,095 subsections and 565 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  8,095
+
+      Process memory by type:
+        System matrix:            500 MB
+        Elemental subsections:
+          Primary structure:      40 MB
+          Bottom standard:        11 MB
+          CciL0 standard:         1 MB
+        Fourier transform:        9 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    565 MB
+
+      Amount of RAM installed on host computer:  64 GB
+      Number of logical processors:  22
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  local machine.
+      Threads:  using 22 thread(s), 22 core(s) available.
+
+      Waveguide mode time:  0.011 seconds.
+      Fourier transform time:  0.134 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  20 seconds.
+      Matrix solve time:  12 seconds.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 0.535 seconds.
+        SOC Magnetic Wall Std: 0.471 seconds.
+        Total:                 1 second.
+      De-embedding time for component L0:
+        Total: 0.942 seconds.
+      Frequency completed mar. févr. 24 21:38:19 2026.
+      Total time per frequency:  37 seconds.
+
+    Frequency:  3.95 GHZ
+      Waveguide mode time:  0.014 seconds.
+      Fourier transform time:  0.231 seconds.
+      Coupling time:  31 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  31 seconds.
+      Matrix solve time:  12 seconds.
+      Frequency completed mar. févr. 24 21:39:05 2026.
+      Total time per frequency:  46 seconds.
+      ABS: SNR = 98.9889 dB (140 dB Goal) for S1_1 at 3.82424 GHz.
+      ABS: Time = 42 seconds.
+
+    Frequency:  3.824244 GHZ
+      Waveguide mode time:  0.028 seconds.
+      Fourier transform time:  0.236 seconds.
+      Coupling time:  30 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  30 seconds.
+      Matrix solve time:  13 seconds.
+      Frequency completed mar. févr. 24 21:40:33 2026.
+      Total time per frequency:  1 minute 28 seconds.
+      ABS: SNR = 145.232 dB (108.611 dB Goal) for S3_3 at 3.89726 GHz.
+      ABS: Time = 45 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  1,960 MB.
+      Total time for 3 frequencies:  27 minutes 19 seconds.
+
+Em simulation completed mar. févr. 24 22:05:04 2026.

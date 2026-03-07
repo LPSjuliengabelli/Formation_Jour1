@@ -1,0 +1,149 @@
+Run 1:  lun. févr. 23 18:01:03 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\GDS\Qubit_coupler.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3, Stop = 7 GHZ
+
+    Frequency:  3 GHZ
+      Subsectioning at 7 GHz with Eeff of 6.25.
+      Subsectioning time:  59 seconds.
+      De-embedding information for right box wall port(s):
+        Right SOC Electric Wall: 50 microns length, 1088 subsections, 45 MB.
+        Right SOC Magnetic Wall: 100 microns length, 1044 subsections, 44 MB.
+      De-embedding information for top box wall port(s):
+        Top SOC Electric Wall: 50 microns length, 688 subsections, 15 MB.
+        Top SOC Magnetic Wall: 100 microns length, 660 subsections, 15 MB.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 50 microns length, 688 subsections, 15 MB.
+        Bottom SOC Magnetic Wall: 100 microns length, 660 subsections, 15 MB.
+      Em license feature:  emhighperformance.
+
+      Circuit requires 17,569 subsections and 2,691 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  17,569
+
+      Process memory by type:
+        System matrix:            2,355 MB
+        Elemental subsections:
+          Primary structure:      207 MB
+          Right standard:         56 MB
+          Top standard:           18 MB
+          Bottom standard:        18 MB
+        Fourier transform:        30 MB
+        Waveguide mode:           7 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    2,691 MB
+
+      Amount of RAM installed on host computer:  64 GB
+      Number of logical processors:  22
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  local machine.
+      Threads:  using 22 thread(s), 22 core(s) available.
+
+      Waveguide mode time:  0.047 seconds.
+      Fourier transform time:  0.695 seconds.
+      Coupling time:  7 minutes 24 seconds.
+      Loss time:  2 seconds.
+      Matrix fill time:  7 minutes 27 seconds.
+      Matrix solve time:  1 minute 59 seconds.
+      De-embedding time for right box wall:
+        SOC Electric Wall Std: 3 seconds.
+        SOC Magnetic Wall Std: 2 seconds.
+        Total:                 6 seconds.
+      De-embedding time for top box wall:
+        SOC Electric Wall Std: 0.699 seconds.
+        SOC Magnetic Wall Std: 0.658 seconds.
+        Total:                 1 second.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 0.742 seconds.
+        SOC Magnetic Wall Std: 0.657 seconds.
+        Total:                 1 second.
+      Frequency completed lun. févr. 23 18:11:44 2026.
+      Total time per frequency:  9 minutes 42 seconds.
+
+    Frequency:  7 GHZ
+      Waveguide mode time:  0.031 seconds.
+      Fourier transform time:  0.712 seconds.
+      Coupling time:  6 minutes 13 seconds.
+      Loss time:  1 second.
+      Matrix fill time:  6 minutes 15 seconds.
+      Matrix solve time:  1 minute 1 second.
+      Frequency completed lun. févr. 23 18:19:08 2026.
+      Total time per frequency:  7 minutes 23 seconds.
+      ABS: Energy conservation for port 2 at 4.8015 GHz.
+      ABS: Time = 23 seconds.
+
+    Frequency:  4.8015 GHZ
+      Waveguide mode time:  0.024 seconds.
+      Fourier transform time:  0.466 seconds.
+      Coupling time:  6 minutes 1 second.
+      Loss time:  1 second.
+      Matrix fill time:  6 minutes 3 seconds.
+      Matrix solve time:  2 minutes 1 second.
+      Frequency completed lun. févr. 23 18:27:46 2026.
+      Total time per frequency:  8 minutes 38 seconds.
+      ABS: Energy conservation for port 1 at 6.0949 GHz.
+      ABS: Time = 38 seconds.
+
+    Frequency:  6.0949 GHZ
+      Waveguide mode time:  0.066 seconds.
+      Fourier transform time:  0.640 seconds.
+      Coupling time:  6 minutes 31 seconds.
+      Loss time:  2 seconds.
+      Matrix fill time:  6 minutes 33 seconds.
+      Matrix solve time:  2 minutes.
+      Frequency completed lun. févr. 23 18:37:09 2026.
+      Total time per frequency:  9 minutes 23 seconds.
+      ABS: SNR = 97.7583 dB (140 dB Goal) for S1_1 at 3.6531 GHz.
+      ABS: Time = 48 seconds.
+
+    Frequency:  3.6531 GHZ
+      Waveguide mode time:  0.046 seconds.
+      Fourier transform time:  0.628 seconds.
+      Coupling time:  6 minutes 27 seconds.
+      Loss time:  1 second.
+      Matrix fill time:  6 minutes 30 seconds.
+      Matrix solve time:  1 minute 59 seconds.
+      Frequency completed lun. févr. 23 18:46:37 2026.
+      Total time per frequency:  9 minutes 28 seconds.
+      ABS: SNR = 142.593 dB (140 dB Goal) for S1_1 at 6.6585 GHz.
+      ABS: Time = 58 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  3,991 MB.
+      Total time for 5 frequencies:  46 minutes 37 seconds.
+
+Em simulation completed lun. févr. 23 18:47:40 2026.
+
+
+Run 2:  lun. févr. 23 19:05:28 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\GDS\Qubit_coupler.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Post-Analysis information for em run 2:
+      Peak memory usage:  41 MB.
+      Total time for 0 frequencies:  0 seconds.
+
+Em simulation completed lun. févr. 23 19:05:29 2026.
+
+
+Run 2:  jeu. févr. 26 15:33:20 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_coupler.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Post-Analysis information for em run 2:
+      Peak memory usage:  40 MB.
+      Total time for 0 frequencies:  0 seconds.
+
+Em simulation completed jeu. févr. 26 15:33:21 2026.

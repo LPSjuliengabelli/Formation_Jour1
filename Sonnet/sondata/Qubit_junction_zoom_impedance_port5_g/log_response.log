@@ -1,0 +1,35 @@
+Run 1:  mer. févr. 25 13:26:28 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_zoom_impedance_port5_g.sonx.
+
+    Begin electromagnetic simulation using independent parameters:
+      Lj = 19.15
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3.85, Stop = 3.9 GHZ
+
+    Frequency:  3.85 GHZ
+
+      De-embedded S-Parameters. 5 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      3.85000000 0.999527 -4.184
+      ! P1 F=3.85 Eeff=(5.91514 - j0.000539365) Z0=(51.5976 + j0.00235238)
+
+    Frequency:  3.9 GHZ
+      3.90000000 0.999730 1.5763
+      ! P1 F=3.9 Eeff=(5.91514 - j0.00053935) Z0=(51.5976 + j0.0023524)
+
+    Frequency:  3.8749671 GHZ
+      3.87496710 0.982654 19.225
+      ! P1 F=3.8749671 Eeff=(5.91514 - j0.000539362) Z0=(51.5976 + j0.0023524)
+
+Analysis stopped mer. févr. 25 14:49:21 2026 with signal 15.
+
+
+Run 2:  mer. févr. 25 14:54:05 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_zoom_impedance_port5_g.sonx.
+
+Em simulation completed mer. févr. 25 14:55:46 2026.

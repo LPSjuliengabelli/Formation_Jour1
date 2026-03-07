@@ -1,0 +1,15 @@
+Run 1:  mar. févr. 24 21:37:35 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_zoom_impedance_port.sonx.
+
+    Begin electromagnetic simulation using independent parameters:
+      Lj = 19.15
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3.7, Stop = 3.95 GHZ
+
+    Post-Analysis information for em run 1:
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed mar. févr. 24 22:05:04 2026.

@@ -1,0 +1,101 @@
+Run 1:  mer. févr. 25 14:49:54 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_zoom_impedance_port5_e.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Begin electromagnetic simulation using independent parameters:
+      Lj = 20.21
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3.75, Stop = 3.8 GHZ
+
+    Frequency:  3.75 GHZ
+      Subsectioning at 3.8 GHz with Eeff of 6.25.
+      Subsectioning time:  6 seconds.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 50 microns length, 599 subsections, 12 MB.
+        Bottom SOC Magnetic Wall: 100 microns length, 570 subsections, 12 MB.
+      De-embedding information for component L0:
+        Main Std: X=1000 microns Y=600 microns box size, 233 subsections, 14 MB.
+      Em license feature:  emhighperformance.
+
+      Circuit requires 8,095 subsections and 565 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  8,095
+
+      Process memory by type:
+        System matrix:            500 MB
+        Elemental subsections:
+          Primary structure:      40 MB
+          Bottom standard:        11 MB
+          CciL0 standard:         1 MB
+        Fourier transform:        9 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    565 MB
+
+      Amount of RAM installed on host computer:  64 GB
+      Number of logical processors:  22
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  local machine.
+      Threads:  using 22 thread(s), 22 core(s) available.
+
+      Waveguide mode time:  0.032 seconds.
+      Fourier transform time:  0.228 seconds.
+      Coupling time:  28 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  29 seconds.
+      Matrix solve time:  12 seconds.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 0.572 seconds.
+        SOC Magnetic Wall Std: 0.470 seconds.
+        Total:                 1 second.
+      De-embedding time for component L0:
+        Total: 0.880 seconds.
+      Frequency completed mer. févr. 25 14:50:50 2026.
+
+      De-embedded S-Parameters. 5 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      3.75000000 0.999443 -4.396
+      ! P1 F=3.75 Eeff=(5.91514 - j0.000539356) Z0=(51.5976 + j0.00235238)
+      Total time per frequency:  49 seconds.
+
+    Frequency:  3.8 GHZ
+      Waveguide mode time:  0.013 seconds.
+      Fourier transform time:  0.242 seconds.
+      Coupling time:  28 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  29 seconds.
+      Matrix solve time:  12 seconds.
+      Frequency completed mer. févr. 25 14:51:34 2026.
+      3.80000000 0.999789 1.2797
+      ! P1 F=3.8 Eeff=(5.91514 - j0.000539365) Z0=(51.5976 + j0.00235241)
+      Total time per frequency:  44 seconds.
+      ABS: SNR = 126.854 dB (140 dB Goal) for S1_1 at 3.77496 GHz.
+      ABS: Time = 13 seconds.
+
+    Frequency:  3.774965 GHZ
+      Waveguide mode time:  0.028 seconds.
+      Fourier transform time:  0.210 seconds.
+      Coupling time:  28 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  28 seconds.
+      Matrix solve time:  13 seconds.
+      Frequency completed mer. févr. 25 14:52:34 2026.
+      3.77496500 0.994422 10.317
+      ! P1 F=3.774965 Eeff=(5.91514 - j0.000539362) Z0=(51.5976 + j0.00235237)
+      Total time per frequency:  59 seconds.
+      ABS: SNR = 168.307 dB (103.28 dB Goal) for S2_3 at 3.76054 GHz.
+      ABS: Time = 19 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  1,129 MB.
+      Total time for 3 frequencies:  4 minutes 7 seconds.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed mer. févr. 25 14:54:02 2026.

@@ -1,0 +1,36 @@
+Run 1:  lun. févr. 23 13:10:06 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_junction_capa.sonx.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0.1, Stop = 10 GHZ
+
+    Frequency:  0.1 GHZ
+
+      De-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      0.10000000 0.999999 -0.316
+      ! P1 F=0.1 Eeff=(5.72835 - j0.000524205) Z0=(157.546 + j0.00717385)
+
+    Frequency:  10 GHZ
+      10.0000000 0.999950 -31.96
+      ! P1 F=10.0 Eeff=(5.73405 - j0.000523705) Z0=(157.51 + j0.0071907)
+
+    Frequency:  9.846 GHZ
+      9.84600000 0.999951 -31.46
+      ! P1 F=9.846 Eeff=(5.7339 - j0.000523671) Z0=(157.512 + j0.00719055)
+
+    Frequency:  5.112 GHZ
+      5.11200000 0.999974 -16.22
+      ! P1 F=5.112 Eeff=(5.73029 - j0.000522853) Z0=(157.543 + j0.00718688)
+
+    Frequency:  2.102 GHZ
+      2.10200000 0.999989 -6.654
+      ! P1 F=2.102 Eeff=(5.72919 - j0.000522599) Z0=(157.553 + j0.00718567)
+
+    Frequency:  7.702 GHZ
+      7.70200000 0.999961 -24.52
+      ! P1 F=7.702 Eeff=(5.73198 - j0.000523234) Z0=(157.528 + j0.00718861)
+
+Em simulation completed lun. févr. 23 13:14:06 2026.

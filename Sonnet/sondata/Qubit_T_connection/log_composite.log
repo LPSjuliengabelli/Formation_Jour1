@@ -1,0 +1,153 @@
+Run 1:  lun. févr. 23 19:07:04 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\GDS\Qubit_T_connection.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3, Stop = 7 GHZ
+
+    Frequency:  3 GHZ
+      Subsectioning at 7 GHz with Eeff of 6.25.
+      Subsectioning time:  15 seconds.
+      De-embedding information for left box wall port(s):
+        Left SOC Electric Wall: 50 microns length, 885 subsections, 38 MB.
+        Left SOC Magnetic Wall: 100 microns length, 854 subsections, 37 MB.
+      De-embedding information for right box wall port(s):
+        Right SOC Electric Wall: 50 microns length, 885 subsections, 38 MB.
+        Right SOC Magnetic Wall: 100 microns length, 854 subsections, 37 MB.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 50 microns length, 885 subsections, 38 MB.
+        Bottom SOC Magnetic Wall: 100 microns length, 854 subsections, 37 MB.
+      Em license feature:  emhighperformance.
+
+      Circuit requires 5,338 subsections and 501 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  5,338
+
+      Process memory by type:
+        System matrix:            217 MB
+        Elemental subsections:
+          Primary structure:      103 MB
+          Left standard:          54 MB
+          Right standard:         54 MB
+          Bottom standard:        54 MB
+        Fourier transform:        16 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    501 MB
+
+      Amount of RAM installed on host computer:  64 GB
+      Number of logical processors:  22
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  local machine.
+      Threads:  using 22 thread(s), 22 core(s) available.
+
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.200 seconds.
+      Coupling time:  48 seconds.
+      Loss time:  0.094 seconds.
+      Matrix fill time:  49 seconds.
+      Matrix solve time:  1 second.
+      De-embedding time for left box wall:
+        SOC Electric Wall Std: 1 second.
+        SOC Magnetic Wall Std: 1 second.
+        Total:                 3 seconds.
+      De-embedding time for right box wall:
+        SOC Electric Wall Std: 1 second.
+        SOC Magnetic Wall Std: 2 seconds.
+        Total:                 4 seconds.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 2 seconds.
+        SOC Magnetic Wall Std: 2 seconds.
+        Total:                 5 seconds.
+      Frequency completed lun. févr. 23 19:08:28 2026.
+
+      De-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      3.00000000 0.333350 178.86 0.666662 -0.773 0.666662 -0.773
+                 0.666662 -0.773 0.333345 178.53 0.666665 -0.938
+                 0.666662 -0.773 0.666665 -0.938 0.333345 178.53
+      ! P1 F=3.0 Eeff=(6.19906 - j0.00056521) Z0=(53.6105 + j0.00244412)
+      ! P2 F=3.0 Eeff=(6.19905 - j0.00056524) Z0=(53.6105 + j0.00244423)
+      ! P3 F=3.0 Eeff=(6.19905 - j0.00056524) Z0=(53.6105 + j0.00244423)
+      Total time per frequency:  1 minute 8 seconds.
+
+    Frequency:  7 GHZ
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.203 seconds.
+      Coupling time:  49 seconds.
+      Loss time:  0.199 seconds.
+      Matrix fill time:  50 seconds.
+      Matrix solve time:  4 seconds.
+      Frequency completed lun. févr. 23 19:09:35 2026.
+      7.00000000 0.333425 177.33 0.666643 -1.805 0.666643 -1.805
+                 0.666643 -1.805 0.333394 176.57 0.666659 -2.188
+                 0.666643 -1.805 0.666659 -2.188 0.333394 176.57
+      ! P1 F=7.0 Eeff=(6.19913 - j0.000565249) Z0=(53.6105 + j0.00244416)
+      ! P2 F=7.0 Eeff=(6.19913 - j0.000565253) Z0=(53.6105 + j0.00244418)
+      ! P3 F=7.0 Eeff=(6.19913 - j0.000565253) Z0=(53.6105 + j0.00244418)
+      Total time per frequency:  1 minute 7 seconds.
+      ABS: SNR = 78.0518 dB (140 dB Goal) for S3_3 at 5 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  5 GHZ
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.253 seconds.
+      Coupling time:  57 seconds.
+      Loss time:  0.102 seconds.
+      Matrix fill time:  58 seconds.
+      Matrix solve time:  2 seconds.
+      Frequency completed lun. févr. 23 19:10:48 2026.
+      5.00000000 0.333380 178.09 0.666654 -1.289 0.666654 -1.289
+                 0.666654 -1.289 0.333364 177.55 0.666662 -1.563
+                 0.666654 -1.289 0.666662 -1.563 0.333364 177.55
+      ! P1 F=5.0 Eeff=(6.19908 - j0.000565247) Z0=(53.6105 + j0.00244421)
+      ! P2 F=5.0 Eeff=(6.19908 - j0.000565252) Z0=(53.6105 + j0.00244421)
+      ! P3 F=5.0 Eeff=(6.19908 - j0.000565252) Z0=(53.6105 + j0.00244421)
+      Total time per frequency:  1 minute 12 seconds.
+      ABS: SNR = 136.875 dB (140 dB Goal) for S3_3 at 6.1533 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  6.1533 GHZ
+      Waveguide mode time:  0.010 seconds.
+      Fourier transform time:  0.268 seconds.
+      Coupling time:  1 minute 5 seconds.
+      Loss time:  0.157 seconds.
+      Matrix fill time:  1 minute 6 seconds.
+      Matrix solve time:  4 seconds.
+      Frequency completed lun. févr. 23 19:12:15 2026.
+      6.15330000 0.333404 177.65 0.666648 -1.587 0.666648 -1.586
+                 0.666648 -1.587 0.333380 176.98 0.666660 -1.923
+                 0.666648 -1.586 0.666660 -1.923 0.333380 176.98
+      ! P1 F=6.1533 Eeff=(6.19911 - j0.000565255) Z0=(53.6105 + j0.00244419)
+      ! P2 F=6.1533 Eeff=(6.19911 - j0.000565246) Z0=(53.6105 + j0.00244419)
+      ! P3 F=6.1533 Eeff=(6.19911 - j0.000565246) Z0=(53.6105 + j0.00244419)
+      Total time per frequency:  1 minute 27 seconds.
+      ABS: SNR = 191.345 dB (140 dB Goal) for S3_3 at 3.6842 GHz.
+      ABS: Time = 4 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  828 MB.
+      Total time for 4 frequencies:  5 minutes 20 seconds.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed lun. févr. 23 19:12:26 2026.
+
+
+Run 2:  jeu. févr. 26 15:33:23 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_T_connection.sonx.
+    Computer processor:  Intel(R) Core(TM) Ultra 7 165H
+
+    Post-Analysis information for em run 2:
+      Peak memory usage:  40 MB.
+      Total time for 0 frequencies:  0 seconds.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed jeu. févr. 26 15:33:24 2026.

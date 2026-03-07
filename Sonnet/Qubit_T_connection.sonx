@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonnetProject Version="20" Type="GEO" xmlns="https://www.sonnetsoftware.com/schema/project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/project https://www.sonnetsoftware.com/schema/project/sonnet_project_file-1.0.xsd">
+    <GlobalTemperature Tnom="25.000"/>
+    <Header>
+        <Created Program="sonnet" Version="19.52.2025">
+            <Date>02/23/2026 18:18:11</Date>
+        </Created>
+        <Modified Program="sonnet" Version="19.52.2025">
+            <License>upsud50.4.76935</License>
+            <Date>02/23/2026 19:07:01</Date>
+            <Change Importance="MEDIUM">
+                <Date>02/23/2026 18:20:54</Date>
+            </Change>
+            <Change Importance="HIGH">
+                <Date>02/23/2026 18:20:54</Date>
+            </Change>
+        </Modified>
+    </Header>
+    <Units>
+        <Angle>DEG</Angle>
+        <Capacitance>PF</Capacitance>
+        <Conductance>/OH</Conductance>
+        <Conductivity>SM</Conductivity>
+        <Frequency>GHZ</Frequency>
+        <Inductance>NH</Inductance>
+        <Length>UM</Length>
+        <Roughness>UM</Roughness>
+        <Resistance>OH</Resistance>
+        <Resistivity>OHCM</Resistivity>
+        <SheetRes>OHSQ</SheetRes>
+    </Units>
+    <Control>
+        <SweepType>VARSWP</SweepType>
+        <DeEmbed On="TRUE"/>
+        <Precision>DOUBLE</Precision>
+        <SpeedControl>MAX_ACCURACY</SpeedControl>
+        <ABSCacheLevel>MULTI_SWEEP</ABSCacheLevel>
+    </Control>
+    <Geometry YDirection="Negative">
+        <Dielectric MacroID="dielectricA" Name="Air" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity Value="0.0"/>
+            <Eps Value="1.0"/>
+            <Tan Value="0.0"/>
+            <MuRel Value="1.0"/>
+            <MagLossTan Value="0.0"/>
+        </Dielectric>
+        <Dielectric MacroID="dielectricC" Name="Sapphire" LossType="CONDUCTIVITY" Anisotropic="TRUE">
+            <Description>
+                <Line>Single crystal sapphire cut perpendicular to the longitudinal C-axis. The substrate X and Y axes are perpendicular</Line>
+                <Line>to the crystal C-axis, while the substrate Z-axis is parallel to it. Reference: Kyocera and other sources.</Line>
+            </Description>
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity>
+                <X Value="0.0"/>
+                <Y Value="0.0"/>
+                <Z Value="0.0"/>
+            </Conductivity>
+            <Eps>
+                <X Value="9.3"/>
+                <Y Value="9.3"/>
+                <Z Value="11.5"/>
+            </Eps>
+            <Tan>
+                <X Value="1.0e-4"/>
+                <Y Value="1.0e-4"/>
+                <Z Value="1.0e-4"/>
+            </Tan>
+            <MuRel>
+                <X Value="1.0"/>
+                <Y Value="1.0"/>
+                <Z Value="1.0"/>
+            </MuRel>
+            <MagLossTan>
+                <X Value="0.0"/>
+                <Y Value="0.0"/>
+                <Z Value="0.0"/>
+            </MagLossTan>
+        </Dielectric>
+        <Conductor MacroID="conductorA" Name="Perfect Conductor" Conductivity="INF" LossType="CONDUCTIVITY"/>
+        <Conductor MacroID="conductorB" Name="Unknown_metal" Conductivity="INF" LossType="CONDUCTIVITY"/>
+        <Conductor MacroID="conductorC" Name="tantal" LossType="SURFACE_IMPEDANCE" Ls="0.2" Rdc="0.0" Rrf="0.0" Xdc="0.0"/>
+        <Box>
+            <BoxCover MacroID="top_cover" Type="TOP" MaterialType="PERFECT_CONDUCTOR" Roughness="0.0" Thickness="0.0"/>
+            <BoxCover MacroID="bot_cover" Type="BOTTOM" MaterialType="PERFECT_CONDUCTOR" Roughness="0.0" Thickness="0.0"/>
+            <Size X="200" Y="200" Z="2500"/>
+            <NumCells X="1000" Y="1000"/>
+            <LocalOrigin X="0" Y="200"/>
+            <Symmetry On="FALSE"/>
+            <RefPlane Type="FIXED" Side="LEFT" RefLength="50"/>
+            <RefPlane Type="FIXED" Side="RIGHT" RefLength="50"/>
+            <RefPlane Type="FIXED" Side="BOTTOM" RefLength="50"/>
+        </Box>
+        <Level MacroID="diel_layerA" MaterialName="Air" Number="0">
+            <DielectricMaterialModel Thickness="2000.0"/>
+            <Objects>
+                <PlanarTechLayer MacroID="planarTLA" Name="tantal" MaterialName="tantal">
+                    <ImportExportMapping GDSStreamDataTypes="17:0"/>
+                    <ColorPattern Color="#3eb02c" Pattern="updiag"/>
+                    <PlanarMaterialModel CurrentRatio="0.5" ModelType="THIN_METAL" Thickness="0.0"/>
+                    <RoughnessModel RoughnessOn="FALSE"/>
+                    <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR"/>
+                    <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y"/>
+                    <GLGMeshing GLG="FALSE"/>
+                    <Objects>
+                        <PlanarPolygon MacroID="polygonA" Id="1">
+                            <Points>(200,91.6) (0,91.6) (0,108.4) (81.7,108.4) (81.988,108.404)</Points>
+                            <Points>(82.276,108.417) (82.563,108.438) (82.849,108.467) (83.135,108.505) (83.419,108.55)</Points>
+                            <Points>(83.702,108.605) (83.983,108.667) (84.262,108.737) (84.539,108.816) (84.814,108.902)</Points>
+                            <Points>(85.086,108.997) (85.355,109.099) (85.621,109.21) (85.884,109.328) (86.143,109.453)</Points>
+                            <Points>(86.399,109.586) (86.65,109.726) (86.897,109.874) (87.14,110.029) (87.378,110.19)</Points>
+                            <Points>(87.612,110.359) (87.84,110.534) (88.064,110.716) (88.281,110.904) (88.494,111.099)</Points>
+                            <Points>(88.7,111.3) (88.901,111.506) (89.096,111.719) (89.284,111.936) (89.466,112.16)</Points>
+                            <Points>(89.641,112.388) (89.81,112.622) (89.971,112.86) (90.126,113.103) (90.274,113.35)</Points>
+                            <Points>(90.414,113.601) (90.547,113.857) (90.672,114.116) (90.79,114.379) (90.901,114.645)</Points>
+                            <Points>(91.003,114.914) (91.098,115.186) (91.184,115.461) (91.263,115.738) (91.333,116.017)</Points>
+                            <Points>(91.395,116.298) (91.45,116.581) (91.495,116.865) (91.533,117.151) (91.561,117.423)</Points>
+                            <Points>(91.583,117.724) (91.596,118.012) (91.6,118.3) (91.6,200) (108.4,200)</Points>
+                            <Points>(108.4,118.3) (108.404,118.012) (108.417,117.724) (108.439,117.423) (108.467,117.151)</Points>
+                            <Points>(108.505,116.865) (108.55,116.581) (108.605,116.298) (108.667,116.017) (108.737,115.738)</Points>
+                            <Points>(108.816,115.461) (108.902,115.186) (108.997,114.914) (109.099,114.645) (109.21,114.379)</Points>
+                            <Points>(109.328,114.116) (109.453,113.857) (109.586,113.601) (109.726,113.35) (109.874,113.103)</Points>
+                            <Points>(110.029,112.86) (110.19,112.622) (110.359,112.388) (110.534,112.16) (110.716,111.936)</Points>
+                            <Points>(110.904,111.719) (111.099,111.506) (111.3,111.3) (111.506,111.099) (111.719,110.904)</Points>
+                            <Points>(111.936,110.716) (112.16,110.534) (112.388,110.359) (112.622,110.19) (112.86,110.029)</Points>
+                            <Points>(113.103,109.874) (113.35,109.726) (113.601,109.586) (113.857,109.453) (114.116,109.328)</Points>
+                            <Points>(114.379,109.21) (114.645,109.099) (114.914,108.997) (115.186,108.902) (115.461,108.816)</Points>
+                            <Points>(115.738,108.737) (116.017,108.667) (116.298,108.605) (116.581,108.55) (116.865,108.505)</Points>
+                            <Points>(117.151,108.467) (117.437,108.438) (117.724,108.417) (118.012,108.404) (118.3,108.4)</Points>
+                            <Points>(200,108.4)</Points>
+                            <Objects>
+                                <Port MacroID="portA" Number="1" Vertex="58">
+                                    <Type Type="BOX"/>
+                                    <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0"/>
+                                    <Center>(100,200)</Center>
+                                </Port>
+                                <Port MacroID="portB" Number="2" Vertex="115">
+                                    <Type Type="BOX"/>
+                                    <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0"/>
+                                    <Center>(200,100)</Center>
+                                </Port>
+                                <Port MacroID="portC" Number="3" Vertex="1">
+                                    <Type Type="BOX"/>
+                                    <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0"/>
+                                    <Center>(0,100)</Center>
+                                </Port>
+                            </Objects>
+                        </PlanarPolygon>
+                        <PlanarPolygon MacroID="polygonB" Id="2">
+                            <Points>(71.7,118.4) (0,118.4) (0,200) (81.6,200) (81.6,128.3)</Points>
+                            <Points>(81.596,128.012) (81.583,127.724) (81.562,127.437) (81.533,127.151) (81.495,126.865)</Points>
+                            <Points>(81.45,126.581) (81.395,126.298) (81.333,126.017) (81.263,125.738) (81.185,125.464)</Points>
+                            <Points>(81.184,125.461) (81.098,125.186) (81.003,124.914) (80.901,124.645) (80.79,124.379)</Points>
+                            <Points>(80.672,124.116) (80.547,123.857) (80.414,123.601) (80.274,123.35) (80.126,123.103)</Points>
+                            <Points>(79.971,122.86) (79.81,122.622) (79.641,122.388) (79.466,122.16) (79.284,121.936)</Points>
+                            <Points>(79.096,121.719) (78.901,121.506) (78.7,121.3) (78.494,121.099) (78.281,120.904)</Points>
+                            <Points>(78.064,120.716) (77.84,120.534) (77.612,120.359) (77.378,120.19) (77.14,120.029)</Points>
+                            <Points>(76.897,119.874) (76.65,119.726) (76.399,119.586) (76.143,119.453) (75.884,119.328)</Points>
+                            <Points>(75.621,119.21) (75.355,119.099) (75.086,118.997) (74.814,118.902) (74.539,118.816)</Points>
+                            <Points>(74.262,118.737) (73.983,118.667) (73.702,118.605) (73.419,118.55) (73.135,118.505)</Points>
+                            <Points>(72.849,118.467) (72.563,118.438) (72.276,118.417) (71.988,118.404)</Points>
+                        </PlanarPolygon>
+                        <PlanarPolygon MacroID="polygonC" Id="3">
+                            <Points>(200,0) (0,0) (0,81.6) (200,81.6)</Points>
+                        </PlanarPolygon>
+                        <PlanarPolygon MacroID="polygonD" Id="4">
+                            <Points>(200,118.4) (128.3,118.4) (128.012,118.404) (127.724,118.417) (127.437,118.438)</Points>
+                            <Points>(127.151,118.467) (126.865,118.505) (126.581,118.55) (126.298,118.605) (126.017,118.667)</Points>
+                            <Points>(125.738,118.737) (125.461,118.816) (125.186,118.902) (124.914,118.997) (124.645,119.099)</Points>
+                            <Points>(124.379,119.21) (124.116,119.328) (123.857,119.453) (123.601,119.586) (123.35,119.726)</Points>
+                            <Points>(123.103,119.874) (122.86,120.029) (122.622,120.19) (122.388,120.359) (122.16,120.534)</Points>
+                            <Points>(121.936,120.716) (121.719,120.904) (121.506,121.099) (121.3,121.3) (121.099,121.506)</Points>
+                            <Points>(120.904,121.719) (120.716,121.936) (120.534,122.16) (120.359,122.388) (120.19,122.622)</Points>
+                            <Points>(120.029,122.86) (119.874,123.103) (119.726,123.35) (119.586,123.601) (119.453,123.857)</Points>
+                            <Points>(119.328,124.116) (119.21,124.379) (119.099,124.645) (118.997,124.914) (118.902,125.186)</Points>
+                            <Points>(118.816,125.461) (118.815,125.464) (118.737,125.738) (118.667,126.017) (118.605,126.298)</Points>
+                            <Points>(118.55,126.581) (118.505,126.865) (118.467,127.151) (118.438,127.437) (118.417,127.724)</Points>
+                            <Points>(118.404,128.012) (118.4,128.3) (118.4,200) (200,200)</Points>
+                        </PlanarPolygon>
+                    </Objects>
+                </PlanarTechLayer>
+            </Objects>
+        </Level>
+        <Level MacroID="diel_layerB" MaterialName="Sapphire" Number="1">
+            <DielectricMaterialModel Thickness="500.0"/>
+        </Level>
+    </Geometry>
+    <Sweeps SweepVariables="FALSE">
+        <Set MacroID="sweepsetA" On="TRUE">
+            <Frequencies>
+                <Sweep MacroID="freq_sweepA" Type="ABS_ENTRY" On="TRUE" Adaptive="TRUE" Start="3" Stop="7" Target="50000"/>
+            </Frequencies>
+        </Set>
+    </Sweeps>
+    <OutputFiles Folder=".">
+        <Files>
+            <File MacroID="output_fileA" Type="TOUCH" Name="$BASENAME.s3p" UseInterpolatedData="TRUE" IncludeComments="TRUE" Precision="15" Parameter="S" Format="MA">
+                <Terminations Type="STD" Single="TRUE">
+                    <Port Rp="50" Xp="0" Lp="0" Cp="0"/>
+                </Terminations>
+            </File>
+        </Files>
+    </OutputFiles>
+    <Translator>
+        <GDSIMPORT ImportUnits="microns">
+            <Template UseTemplate="FALSE" UsePresentProject="FALSE" KeepPolygons="FALSE"/>
+            <Box BoxType="Circuit" PlacementType="Center" CellCalcType="Auto" CellSizeX="0.2" CellSizeY="0.2" BoxSizeX="200" BoxSizeY="200"/>
+            <Margins MarginType="Relative" AddMargins="FALSE" TopMargin="0" LeftMargin="0" RightMargin="0" BottomMargin="0"/>
+            <Advanced MergePlanar="FALSE" AdditionalOptions="" ViasRectangular="FALSE" AddViaPads="FALSE" AdditionalViaOptions=""/>
+            <ViaSimplification SimplifyViaArrays="FALSE" MinViasInArray="5" DistanceToSizeRatio="8" SizeRatio="1.5" MaxExpansionCoeff="7" MergePlanarVias="TRUE"/>
+            <BarVias IdentifyBarVias="FALSE" BarViaRatio="2.5"/>
+            <GDSOnly ZeroWidthType="Boundary" SpecifyStructure="FALSE" StructureName=""/>
+        </GDSIMPORT>
+    </Translator>
+</SonnetProject>

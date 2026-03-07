@@ -1,0 +1,68 @@
+Run 1:  lun. févr. 23 18:01:03 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\GDS\Qubit_coupler.sonx.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 3, Stop = 7 GHZ
+
+    Frequency:  3 GHZ
+
+      De-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      3.00000000 0.999973 -15.70 0.001348 82.374 0.001345 73.031
+                 0.001348 82.374 0.014963 80.293 0.999880 -9.735
+                 0.001345 73.031 0.999880 -9.735 0.014963 80.298
+      ! P1 F=3.0 Eeff=(6.21772 - j0.00056695) Z0=(53.6476 + j0.00244585)
+      ! P2 F=3.0 Eeff=(6.21367 - j0.00056658) Z0=(53.631 + j0.00244513)
+      ! P3 F=3.0 Eeff=(6.21367 - j0.00056658) Z0=(53.631 + j0.00244513)
+
+    Frequency:  7 GHZ
+      7.00000000 0.999933 -36.84 0.003163 71.959 0.003124 50.307
+                 0.003163 71.959 0.034171 67.321 0.999394 -22.71
+                 0.003124 50.307 0.999394 -22.71 0.034174 67.333
+      ! P1 F=7.0 Eeff=(6.21783 - j0.000566964) Z0=(53.6478 + j0.00244586)
+      ! P2 F=7.0 Eeff=(6.21377 - j0.000566591) Z0=(53.6311 + j0.00244509)
+      ! P3 F=7.0 Eeff=(6.21377 - j0.000566591) Z0=(53.6311 + j0.00244509)
+
+    Frequency:  4.8015 GHZ
+      4.80150000 0.999956 -25.17 0.002162 77.736 0.002149 62.818
+                 0.002162 77.736 0.023769 74.449 0.999704 -15.58
+                 0.002149 62.818 0.999704 -15.58 0.023770 74.458
+      ! P1 F=4.8015 Eeff=(6.21776 - j0.000566953) Z0=(53.6477 + j0.00244586)
+      ! P2 F=4.8015 Eeff=(6.21371 - j0.000566591) Z0=(53.631 + j0.00244513)
+      ! P3 F=4.8015 Eeff=(6.21371 - j0.000566591) Z0=(53.631 + j0.00244513)
+
+    Frequency:  6.0949 GHZ
+      6.09490000 0.999943 -32.02 0.002750 74.356 0.002724 55.465
+                 0.002750 74.356 0.029944 70.255 0.999533 -19.77
+                 0.002724 55.465 0.999533 -19.77 0.029946 70.266
+      ! P1 F=6.0949 Eeff=(6.2178 - j0.000566957) Z0=(53.6477 + j0.00244586)
+      ! P2 F=6.0949 Eeff=(6.21374 - j0.000566597) Z0=(53.6311 + j0.00244511)
+      ! P3 F=6.0949 Eeff=(6.21374 - j0.000566597) Z0=(53.6311 + j0.00244511)
+
+    Frequency:  3.6531 GHZ
+      3.65310000 0.999967 -19.13 0.001643 80.701 0.001637 69.331
+                 0.001643 80.701 0.018178 78.174 0.999825 -11.85
+                 0.001637 69.331 0.999825 -11.85 0.018179 78.181
+      ! P1 F=3.6531 Eeff=(6.21773 - j0.000566965) Z0=(53.6476 + j0.00244586)
+      ! P2 F=3.6531 Eeff=(6.21369 - j0.000566574) Z0=(53.631 + j0.0024451)
+      ! P3 F=3.6531 Eeff=(6.21369 - j0.000566574) Z0=(53.631 + j0.0024451)
+
+Em simulation completed lun. févr. 23 18:47:40 2026.
+
+
+Run 2:  lun. févr. 23 19:05:28 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\GDS\Qubit_coupler.sonx.
+
+Em simulation completed lun. févr. 23 19:05:29 2026.
+
+
+Run 2:  jeu. févr. 26 15:33:20 2026.  upsud50.4.76935.
+        Em version 19.52.2025 (64-bit Windows) on ns2-pw7736 local.
+
+  Project:  C:\Physics\Enseignement\Radio_frequency_electronics_Formation_continue\Session Mars 2026\Sonnet\Qubit_coupler.sonx.
+
+Em simulation completed jeu. févr. 26 15:33:21 2026.
